@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f7f4">
+
+  <title>Nelson — Personal Portfolio</title>
+  <meta name="description" content="Explore Nelson's personal profile, interests and journey.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND DECORATIONS -->
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <div class="floating-scene" aria-hidden="true">
+    <span class="cube cube-one"></span>
+    <span class="cube cube-two"></span>
+    <span class="cube cube-three"></span>
+    <span class="cube cube-four"></span>
+    <span class="cube cube-five"></span>
+    <span class="cube cube-six"></span>
+    <span class="floating-ring"></span>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">NELSON<span>.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">
+      Let's Talk <span class="arrow-icon"></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+
+      <div class="hero-content reveal">
+
+        <div class="welcome-label">
+          <span class="status-dot"></span>
+          MY PERSONAL DIGITAL SPACE
+        </div>
+
+        <p class="small-intro">HELLO THERE, I'M</p>
+
+        <h1>Nelson<span class="name-dot">.</span></h1>
+
+        <h2>
+          Creating my own story,
+          <span class="gradient-text">one step at a time.</span>
+        </h2>
+
+        <p class="hero-description">
+          Welcome to my world. Discover my personality,
+          my interests, my journey and the things that
+          make me who I am.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="primary-button">
+            Explore My World <span class="arrow-icon"></span>
+          </a>
+
+          <a href="#contact" class="secondary-button">
+            Get In Touch
+          </a>
+        </div>
+
+        <div class="hero-footer">
+          <span>SCROLL TO DISCOVER</span>
+          <span class="scroll-line"></span>
+        </div>
+
+      </div>
+
+      <!-- PROFILE PHOTO -->
+      <div class="hero-image-area reveal">
+
+        <div class="image-orbit orbit-one"></div>
+        <div class="image-orbit orbit-two"></div>
+
+        <div class="photo-frame">
+          <img src="nelson.jpg"
+               alt="Nelson's portrait"
+               class="profile-image">
+        </div>
+
+        <div class="photo-caption">
+          <span class="caption-dot"></span>
+          <div>
+            <strong>Nelson</strong>
+            <small>THE PERSON BEHIND THE STORY</small>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-top">
+          PERSONAL PORTFOLIO
+        </div>
+
+        <div class="floating-tag tag-bottom">
+          A WORLD OF POSSIBILITIES
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+
+      <div class="section-heading reveal">
+        <span class="eyebrow">01 / GET TO KNOW ME</span>
+
+        <h2>
+          A little about <span>Nelson.</span>
+        </h2>
+
+        <p>
+          Every person has a story. Here's a little piece of mine.
+        </p>
+      </div>
+
+      <div class="about-card reveal">
+
+
+        <div class="about-content">
+          <span class="about-label">MY STORY</span>
+
+          <h3>More than just a name.</h3>
+
+          <p>
+            I'm Nelson. This space is a reflection of my
+            personality, experiences, interests and ambitions.
+            It's a place to introduce myself, express my ideas
+            and share the things that matter to me.
+          </p>
+
+          <a href="#interests" class="text-link">
+            Discover more <span class="arrow-icon"></span>
+          </a>
+        </div>
+
+        <div class="about-decoration" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section class="interests section" id="interests">
+
+      <div class="section-heading reveal">
+        <span class="eyebrow">02 / WHAT I LOVE</span>
+
+        <h2>
+          Exploring my <span>passions.</span>
+        </h2>
+
+        <p>
+          Take a look into the core pillars of my creative and personal world.
+        </p>
+      </div>
+
+      <div class="interest-grid">
+
+        <!-- CREATIVITY -->
+        <a href="creativity.html"
+           class="about-card interest-card reveal page-link"
+           data-page="creativity">
+
+          <div class="about-number">01</div>
+
+          <div class="about-content">
+            <span class="about-label">IMAGINATION & IDEAS</span>
+
+            <h3>Creativity</h3>
+
+            <p>
+              Exploring ideas, expressing myself and discovering
+              new ways to bring imagination to life.
+            </p>
+
+            <span class="text-link">
+              EXPLORE THIS WORLD <span class="arrow-icon"></span>
+            </span>
+          </div>
+
+          <div class="about-decoration" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+
+        <!-- TECHNOLOGY -->
+        <a href="tech.html"
+           class="about-card interest-card reveal page-link"
+           data-page="tech">
+
+          <div class="about-number">02</div>
+
+          <div class="about-content">
+            <span class="about-label">THE DIGITAL WORLD</span>
+
+            <h3>Technology</h3>
+
+            <p>
+              Discovering digital experiences, learning new things
+              and exploring the world of technology.
+            </p>
+
+            <span class="text-link">
+              EXPLORE THIS WORLD <span class="arrow-icon"></span>
+            </span>
+          </div>
+
+          <div class="about-decoration" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+
+        <!-- GROWTH -->
+        <a href="growth.html"
+           class="about-card interest-card reveal page-link"
+           data-page="growth">
+
+          <div class="about-number">03</div>
+
+          <div class="about-content">
+            <span class="about-label">MY PERSONAL JOURNEY</span>
+
+            <h3>Growth</h3>
+
+            <p>
+              Learning from experiences, embracing change and
+              becoming a better version of myself.
+            </p>
+
+            <span class="text-link">
+              EXPLORE THIS WORLD <span class="arrow-icon"></span>
+            </span>
+          </div>
+
+          <div class="about-decoration" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+
+      <div class="contact-card reveal">
+
+        <span class="eyebrow">03 / LET'S CONNECT</span>
+
+        <h2>
+          Every great connection<br>
+          <span>starts somewhere.</span>
+        </h2>
+
+        <p>
+          Thanks for visiting my personal space.
+          I'd love to hear from you.
+        </p>
+
+        <div class="contact-buttons">
+
+          <a href="https://wa.me/2348071446483"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="contact-button whatsapp-button">
+
+            <span class="contact-icon whatsapp-icon">W</span>
+
+            <span>
+              <small>MESSAGE ME ON</small>
+              <strong>WhatsApp</strong>
+            </span>
+
+            <span class="arrow-icon"></span>
+          </a>
+
+          <a href="mailto:nelsonfundz12@gmail.com"
+             class="contact-button email-button">
+
+            <span class="contact-icon email-icon">@</span>
+
+            <span>
+              <small>SEND ME AN</small>
+              <strong>Email</strong>
+            </span>
+
+            <span class="arrow-icon"></span>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <a href="#home" class="logo">NELSON<span>.</span></a>
+
+    <p>
+      © <span id="year"></span> Nelson. All rights reserved.
+    </p>
+
+    <a href="#home" class="back-top">
+      BACK TO TOP <span class="up-arrow"></span>
+    </a>
+
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
