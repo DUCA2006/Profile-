@@ -3540,3 +3540,73 @@ footer p,
     transform: none;
   }
 }
+
+
+
+/* CLEAN, MINIMAL CREATIVITY PAGE */
+
+/* Remove decorative clutter */
+.creative-hub .creative-orb,
+.creative-hub .creative-shape,
+.creative-hub .floating-shape,
+.creative-hub .hero-shape,
+.creative-hub .decorative-shape,
+.creative-hub .idea-object {
+    display: none !important;
+}
+
+/* Remove unnecessary emoji-style icons */
+.creative-hub .emoji,
+.creative-hub .decorative-icon {
+    display: none !important;
+}
+
+/* Make the hero cleaner */
+.creative-hub .creative-hero {
+    background: #fff !important;
+    overflow: hidden;
+}
+
+/* Animated multicolour headline */
+.creative-hub .creative-hero h1 {
+    background: linear-gradient(
+        90deg,
+        #7952e8,
+        #2589ff,
+        #ed65bb,
+        #d6a33d,
+        #7952e8
+    );
+
+    background-size: 300% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: headlineGlow 7s ease-in-out infinite;
+    filter: drop-shadow(0 0 12px rgba(133, 91, 230, 0.18));
+}
+
+@keyframes headlineGlow {
+    0% {
+        background-position: 0% center;
+    }
+
+    50% {
+        background-position: 100% center;
+    }
+
+    100% {
+        background-position: 0% center;
+    }
+}
+
+/* Clean exploration button */
+.creative-hub .creative-hero a {
+    border-radius: 15px;
+}
+
+/* Hide the circled emoji if it has this class */
+.creative-hub .creative-hero .button-icon {
+    display: none !important;
+}
